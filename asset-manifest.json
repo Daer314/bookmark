@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bookmark/static/css/main.d32e298c.chunk.css",
-    "main.js": "/bookmark/static/js/main.7948ea62.chunk.js",
-    "main.js.map": "/bookmark/static/js/main.7948ea62.chunk.js.map",
+    "main.css": "/bookmark/static/css/main.0aa7e66c.chunk.css",
+    "main.js": "/bookmark/static/js/main.bf955b9b.chunk.js",
+    "main.js.map": "/bookmark/static/js/main.bf955b9b.chunk.js.map",
     "runtime-main.js": "/bookmark/static/js/runtime-main.2256203c.js",
     "runtime-main.js.map": "/bookmark/static/js/runtime-main.2256203c.js.map",
     "static/js/2.2207fdc4.chunk.js": "/bookmark/static/js/2.2207fdc4.chunk.js",
     "static/js/2.2207fdc4.chunk.js.map": "/bookmark/static/js/2.2207fdc4.chunk.js.map",
     "index.html": "/bookmark/index.html",
-    "static/css/main.d32e298c.chunk.css.map": "/bookmark/static/css/main.d32e298c.chunk.css.map",
+    "static/css/main.0aa7e66c.chunk.css.map": "/bookmark/static/css/main.0aa7e66c.chunk.css.map",
     "static/js/2.2207fdc4.chunk.js.LICENSE.txt": "/bookmark/static/js/2.2207fdc4.chunk.js.LICENSE.txt",
     "static/media/icon-arrow.8174203a.svg": "/bookmark/static/media/icon-arrow.8174203a.svg",
     "static/media/icon-facebook.8b45ba94.svg": "/bookmark/static/media/icon-facebook.8b45ba94.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.2256203c.js",
     "static/js/2.2207fdc4.chunk.js",
-    "static/css/main.d32e298c.chunk.css",
-    "static/js/main.7948ea62.chunk.js"
+    "static/css/main.0aa7e66c.chunk.css",
+    "static/js/main.bf955b9b.chunk.js"
   ]
 }
