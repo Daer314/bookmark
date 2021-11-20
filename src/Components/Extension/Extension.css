@@ -1,0 +1,104 @@
+.extension-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.extension {
+    width: 450px;
+    margin: 30px 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 190px;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 25px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.19), 0 4px 5px rgba(0,0,0,0.23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.firefox {
+    margin-top: 40px;
+}
+
+.opera {
+    margin-top: 80px;
+}
+
+.extTitle {
+    margin-bottom: 0;
+}
+
+.extText {
+   margin-top: 8px;
+   margin-bottom: 20px;
+   color: darkgrey;
+   font-size: 0.8rem;
+}
+
+.version {
+    width: 240px;
+    height: 40px;
+    border-bottom: 2px dotted lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.extButton {
+    margin-top: 20px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.extButton:hover {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+
+    .cards-container {
+        height: 1000px;
+        margin-bottom: 20px;
+    }
+
+    .firefox {
+        margin-top: 50px;
+    }
+    
+    .opera {
+        margin-top: 50px;
+    }
+
+}

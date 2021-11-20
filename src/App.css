@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.gray-text {
+    color: gray;
+    line-height: 25px;
+}
+
+.infoButton {
+    margin-top: 15px;
+    width: 100px;
+    padding: 12px 12px;
+    background-color: rgba(34, 36, 161, 0.7);
+    border: 0px solid gray;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.19), 0 4px 5px rgba(0,0,0,0.23);
+}
+
+.infoButton:hover {
+    margin-top: 15px;
+    width: 100px;
+    padding: 12px 12px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.19), 0 4px 5px rgba(0,0,0,0.23);
+}
+
+@media(max-width: 500px){
+    .gray-text{
+        width: 300px;
+        text-align: center;
+    }
+}
