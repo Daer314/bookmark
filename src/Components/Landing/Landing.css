@@ -8,14 +8,18 @@
 }
 
 .text-container {
-    width: 450px;
+    width: 50%;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .img-container {
+    width: 50%;
     height: 100%;
     position: relative;
-    margin-left: 150px;
 }
 
 .figure {
@@ -36,6 +40,10 @@ h1 {
     width: 400px;
     margin: 0;
     font-size: 2rem;
+}
+
+.btnWrapper {
+    width: 400px;
 }
 
 .landing-image {

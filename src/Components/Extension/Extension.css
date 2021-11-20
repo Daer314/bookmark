@@ -88,6 +88,10 @@
 
 @media (max-width: 500px) {
 
+    .extension {
+        width: 100%;
+    }
+
     .cards-container {
         height: 1000px;
         margin-bottom: 20px;

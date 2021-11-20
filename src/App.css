@@ -4,6 +4,7 @@ body {
 }
 
 .gray-text {
+    width: 25rem;
     color: gray;
     line-height: 25px;
 }

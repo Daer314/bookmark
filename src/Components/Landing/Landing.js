@@ -7,11 +7,11 @@ export default function Landing() {
         <div className='landing-container'>
             <div className='text-container'>
                 <h1>A Simple Bookmark Manager</h1>
-                <p className='gray-text'>A clean and simple interface to organize your favorite
+                <p className='gray-text '>A clean and simple interface to organize your favorite
                     websites. Open a new browser tab and see your sites load
                     instantly. Try it for free.
                 </p>
-                <div>
+                <div className='btnWrapper'>
                     <button className='buttons'>Get it on Chrome</button>
                     <button className='white-button'>Get it on Firefox</button>
                 </div>
