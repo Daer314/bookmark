@@ -163,4 +163,14 @@ h1 {
     .white-button {
         margin-right: 10px;
     }
+
+    .btnWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .white-button {
+        margin-right: 0px;
+    }
   }

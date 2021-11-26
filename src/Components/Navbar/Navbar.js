@@ -1,45 +1,52 @@
 import React from 'react'
 import logo from './logo-bookmark.svg'
 import menu from './icon-hamburger.svg'
-import './Navbar.css'
+import { Nav,
+        NavbarContainer,
+        NavLogo,
+        MobileIcon,
+        NavItem,
+        NavLinks,
+        NavMenu,
+        NavBtn,
+        NavBtnLink
+} from './NavbarElements'
 
-export default function Navbar() {
+export default function Navbar({toggle}) {
     return (
-        <div className='nav-container'>
-            <img className='book' src={logo} alt='logo'/>
-            <ul className='list-wrapper'>
-                <li>
-                    <a 
-                        href='#features'
-                        className='link'
-                        >FEATURES
-                    </a>
-                </li>
-                <li>
-                    <a 
-                        href='#features'
-                        className='link'
-                        >PRICING
-                    </a>
-                </li>
-                <li>
-                    <a 
-                        href='#features'
-                        className='link'
-                        >CONTACT
-                    </a>
-                </li>
-                <li>
-                    <a 
-                        href='#features'
-                        className='link-active'
-                        >LOGIN
-                    </a>
-                </li>
-                <li>
-                   <img className='btn-menu' src={menu} alt='menu'/>
-                </li>
-            </ul>
-        </div>
+        <>
+            <Nav>
+                <NavbarContainer>
+                    <NavLogo to='/'>
+                        <img src={logo} alt='logo' />
+                    </NavLogo>
+                    <MobileIcon onClick={toggle}>
+                        <img src={menu} alt='menu' />
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to='feature'>
+                                Features
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='pricing'>
+                                Pricing
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='contact'>
+                                Contact
+                            </NavLinks>
+                        </NavItem>
+                        <NavBtn>
+                            <NavBtnLink to='login'>
+                                Login
+                            </NavBtnLink>
+                        </NavBtn>
+                    </NavMenu>
+                </NavbarContainer>
+            </Nav>
+        </>
     )
 }
