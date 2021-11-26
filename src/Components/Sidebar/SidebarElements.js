@@ -32,8 +32,8 @@ export const Icon = styled.div`
 export const SidebarWrapper = styled.div`
     color: #fff;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 `
 
 export const SidebarMenu = styled.ul`
@@ -44,13 +44,14 @@ export const SidebarMenu = styled.ul`
 `
 
 export const SidebarLink = styled(Link)`
+    letter-spacing: 2.5px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     text-decoration: none;
-    height: 50px;
-    margin: 10px 0;
+    height: 75px;
+    padding: 20px 0;
     border-top: 1px solid white;
     list-style: none;
     color: #fff;
@@ -59,23 +60,31 @@ export const SidebarLink = styled(Link)`
     text-transform: uppercase;
 
     &:hover {
-        border: 1px solid white;
+        color: hsl(0, 94%, 66%);
         transition: 0ms.2s ease-in-out;
     }
 `
 
 export const SideBtnWrapper = styled.div`
+    width: 80%;
+    border-top: 1px solid white;
+    padding-top: 25px;
     display: flex;
     justify-content: center;
 `
 
 export const SidebarBtn = styled(Link)`
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
     border-radius: 5px;
-    background-color: hsl(0, 94%, 66%);
-    border: 1px solid hsl(0, 94%, 66%);
-    padding: 10px 22px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 12px 22px;
     color: white;
-    font-size: 16px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
     cursor: pointer;
     text-decoration: none;
 
@@ -83,6 +92,6 @@ export const SidebarBtn = styled(Link)`
         transition: all 0.2s ease-in-out;
         background-color: white;
         color: hsl(0, 94%, 66%);
-        border: 1px solid hsl(0, 94%, 66%);
+        border: 2px solid hsl(0, 94%, 66%);
     }
 `
