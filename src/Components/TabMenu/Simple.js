@@ -10,7 +10,7 @@ export default function Simple() {
             <img src={pc2} alt='pc' className='feature-image'/>
           </div>
           <div className='text-wrapper'>
-            <h2>Bookmarks in one click</h2>
+            <h2 className='sectionTitle'>Bookmarks in one click</h2>
             <p className='gray-text'>Organize your bookmarks however you like. Our
                 simple drag-and-drop interface gives you complete
                 control over how you manage your favorite sites.

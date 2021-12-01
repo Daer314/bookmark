@@ -12,6 +12,11 @@ body {
     overflow-x: hidden;
 }
 
+.sectionTitle {
+    padding: 15px 0;
+    color: hsl(229, 31%, 21%);
+}
+
 .gray-text {
     width: 25rem;
     color: gray;

@@ -6,7 +6,7 @@ export default function Landing() {
     return (
         <div className='landing-container'>
             <div className='text-container'>
-                <h1>A Simple Bookmark Manager</h1>
+                <h1 className='sectionTitle'>A Simple Bookmark Manager</h1>
                 <p className='gray-text '>A clean and simple interface to organize your favorite
                     websites. Open a new browser tab and see your sites load
                     instantly. Try it for free.

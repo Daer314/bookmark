@@ -8,7 +8,7 @@ export default function Extensions() {
     return (
         <div className='extension-container'>
             <div className='extension'>
-                <h2>Download the extension</h2>
+                <h2 className='sectionTitle'>Download the extension</h2>
                 <p className='gray-text'>We've got more browsers in the pipeline. Please
                     do let us know if you've got a favourite you'd like us to prioritize.
                 </p>

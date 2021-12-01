@@ -10,7 +10,7 @@ export default function Simple() {
             <img src={image} alt='pc' className='imageTab'/>
           </div>
           <div className='text-wrapper'>
-            <h2>Intelligent search</h2>
+            <h2 className='sectionTitle'>Intelligent search</h2>
             <p className='gray-text'>Our powerful search feature will help saved
                 sites in no time at all. No need to trawl through all of your bookmarks.
             </p>

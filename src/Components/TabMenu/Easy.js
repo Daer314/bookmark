@@ -10,7 +10,7 @@ export default function Simple() {
             <img src={easy} alt='pc' className='imageTab'/>
           </div>
           <div className='text-wrapper'>
-            <h2>Share your bookmarks</h2>
+            <h2 className='sectionTitle'>Share your bookmarks</h2>
             <p className='gray-text'>Easily share your bookmarks and collections with
             others. Create a shareable  link that you can send at the click of a button.
             </p>
