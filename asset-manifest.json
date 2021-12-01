@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bookmark/static/css/main.0d6bc610.chunk.css",
-    "main.js": "/bookmark/static/js/main.d78e1202.chunk.js",
-    "main.js.map": "/bookmark/static/js/main.d78e1202.chunk.js.map",
+    "main.css": "/bookmark/static/css/main.1f196355.chunk.css",
+    "main.js": "/bookmark/static/js/main.33dcce5b.chunk.js",
+    "main.js.map": "/bookmark/static/js/main.33dcce5b.chunk.js.map",
     "runtime-main.js": "/bookmark/static/js/runtime-main.2256203c.js",
     "runtime-main.js.map": "/bookmark/static/js/runtime-main.2256203c.js.map",
     "static/js/2.7bed4773.chunk.js": "/bookmark/static/js/2.7bed4773.chunk.js",
     "static/js/2.7bed4773.chunk.js.map": "/bookmark/static/js/2.7bed4773.chunk.js.map",
     "index.html": "/bookmark/index.html",
-    "static/css/main.0d6bc610.chunk.css.map": "/bookmark/static/css/main.0d6bc610.chunk.css.map",
+    "static/css/main.1f196355.chunk.css.map": "/bookmark/static/css/main.1f196355.chunk.css.map",
     "static/js/2.7bed4773.chunk.js.LICENSE.txt": "/bookmark/static/js/2.7bed4773.chunk.js.LICENSE.txt",
     "static/media/icon-arrow.8174203a.svg": "/bookmark/static/media/icon-arrow.8174203a.svg",
     "static/media/icon-close.b04dc293.svg": "/bookmark/static/media/icon-close.b04dc293.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.2256203c.js",
     "static/js/2.7bed4773.chunk.js",
-    "static/css/main.0d6bc610.chunk.css",
-    "static/js/main.d78e1202.chunk.js"
+    "static/css/main.1f196355.chunk.css",
+    "static/js/main.33dcce5b.chunk.js"
   ]
 }
